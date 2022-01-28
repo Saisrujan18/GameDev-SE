@@ -22,7 +22,11 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
+<<<<<<< HEAD
     <DefineConstants>DEBUG;TRACE;UNITY_2020_3_26;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_LINUX;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+=======
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_26;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_LINUX;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_SPATIALTRACKING;ENABLE_MODULAR_UNITYENGINE_ASSEMBLIES;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+>>>>>>> dffc662b7bf31994b6eeb7acd88d36be6f1dce8b
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -37,6 +41,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Mesh.cs" />
+<<<<<<< HEAD
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/RegionPointer.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/IConstraintMesher.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Topology/DCEL/Face.cs" />
@@ -54,11 +59,61 @@
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/Polygon.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/DefaultVoronoiFactory.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Tools/TriangleQuadTree.cs" />
+=======
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Log.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/NewLocation.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/StandardVoronoi.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Tools/CuthillMcKee.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/Data/BadSubseg.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/Legacy/BoundedVoronoiLegacy.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/RegionPointer.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/IConstraintMesher.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/MeshValidator.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/IO/InputTriangle.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/BoundedVoronoi.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/Iterators/EdgeIterator.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Topology/DCEL/Face.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Tools/IntersectionHelper.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/QualityMesher.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/Algorithm/Incremental.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/ISegment.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/TriangleSampler.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Topology/SubSegment.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/IPolygon.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/ConstraintMesher.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/Rectangle.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/IEdge.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Topology/DCEL/HalfEdge.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/ITriangulator.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Topology/Triangle.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Tools/Interpolation.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/Data/BadTriQueue.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Properties/AssemblyInfo.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/TriangleLocator.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/IMesh.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/IO/TriangleWriter.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/Iterators/RegionIterator.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/ConstraintOptions.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/ExtensionMethods.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/TrianglePool.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/Polygon.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/DefaultVoronoiFactory.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/IO/IPolygonFormat.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Tools/TriangleQuadTree.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/IPredicates.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/IQualityMesher.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/Legacy/SimpleVoronoi.cs" />
+>>>>>>> dffc662b7bf31994b6eeb7acd88d36be6f1dce8b
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Tools/AdjacencyMatrix.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/Algorithm/Dwyer.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Topology/Otri.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Enums.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/Vertex.cs" />
+<<<<<<< HEAD
+=======
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/Legacy/VoronoiRegion.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/IO/TriangleFormat.cs" />
+>>>>>>> dffc662b7bf31994b6eeb7acd88d36be6f1dce8b
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/Legacy/IVoronoi.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/Contour.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/IO/DebugWriter.cs" />
@@ -68,6 +123,7 @@
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Smoothing/SimpleSmoother.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Configuration.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/GenericMesher.cs" />
+<<<<<<< HEAD
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/IVoronoiFactory.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Logging/LogItem.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/ITriangle.cs" />
@@ -103,6 +159,8 @@
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/Legacy/SimpleVoronoi.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/Legacy/VoronoiRegion.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/IO/TriangleFormat.cs" />
+=======
+>>>>>>> dffc662b7bf31994b6eeb7acd88d36be6f1dce8b
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Topology/DCEL/DcelMesh.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Tools/Statistic.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Smoothing/VoronoiFactory.cs" />
@@ -114,13 +172,28 @@
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Logging/ILogItem.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/Data/BadTriangle.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Topology/Osub.cs" />
+<<<<<<< HEAD
+=======
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/IVoronoiFactory.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Logging/LogItem.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/ITriangle.cs" />
+>>>>>>> dffc662b7bf31994b6eeb7acd88d36be6f1dce8b
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Voronoi/VoronoiBase.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Tools/PolygonValidator.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Tools/VertexSorter.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Smoothing/ISmoother.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/Segment.cs" />
+<<<<<<< HEAD
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Tools/QualityMeasure.cs" />
      <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/Point.cs" />
+=======
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/IO/IFileFormat.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Tools/QualityMeasure.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/QualityOptions.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Geometry/Point.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/IO/IMeshFormat.cs" />
+     <Compile Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Meshing/Algorithm/SweepLine.cs" />
+>>>>>>> dffc662b7bf31994b6eeb7acd88d36be6f1dce8b
      <None Include="Library/PackageCache/com.unity.2d.animation@5.0.10/Runtime/Triangle/Unity.2D.Animation.Triangle.Runtime.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/home/manjunath/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -351,6 +424,7 @@
         <HintPath>/home/manjunath/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
+<<<<<<< HEAD
         <HintPath>/home/manjunath/Unity Projects/GameDev-SE/My project/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
@@ -364,6 +438,21 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>/home/manjunath/Unity Projects/GameDev-SE/My project/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+=======
+        <HintPath>/home/manjunath/Unity Projects/GameDev-SE1/GameDev-SE/My project/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>/home/manjunath/Unity Projects/GameDev-SE1/GameDev-SE/My project/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="unityplastic">
+        <HintPath>/home/manjunath/Unity Projects/GameDev-SE1/GameDev-SE/My project/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="log4netPlastic">
+        <HintPath>/home/manjunath/Unity Projects/GameDev-SE1/GameDev-SE/My project/Library/PackageCache/com.unity.collab-proxy@1.15.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+        <HintPath>/home/manjunath/Unity Projects/GameDev-SE1/GameDev-SE/My project/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+>>>>>>> dffc662b7bf31994b6eeb7acd88d36be6f1dce8b
     </Reference>
     <Reference Include="netstandard">
         <HintPath>/home/manjunath/Unity/Hub/Editor/2020.3.26f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
