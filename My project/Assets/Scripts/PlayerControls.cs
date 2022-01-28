@@ -29,20 +29,38 @@ public class PlayerControls : MonoBehaviour
     {
         MovementInput();
     }
-
-    void FixedUpdate(){
+    // isWalkingLeft
+    // isWalkingRight
+    // isWalkingDown
+    // isWalkingUp
+    void setAnimation(){
         if(movement.x == 0) {
-            anim.SetBool("isMovingRight", false);
-            anim.SetBool("isMovingLeft", false);
+            anim.SetBool("isWalkingRight", false);
+            anim.SetBool("isWalkingLeft", false);
         }
         else if(movement.x < 0) {
-            anim.SetBool("isMovingRight", false);
-            anim.SetBool("isMovingLeft", true);
+            anim.SetBool("isWalkingRight", false);
+            anim.SetBool("isWalkingLeft", true);
         }
-        else {
-            anim.SetBool("isMovingRight", true);
-            anim.SetBool("isMovingLeft", false);
+        else if(movement.x > 0){
+            anim.SetBool("isWalkingRight", true);
+            anim.SetBool("isWalkingLeft", false);
         }
+        if(movement.y == 0) {
+            anim.SetBool("isWalkingUp", false);
+            anim.SetBool("isWalkingDown", false);
+        }
+        else if(movement.y < 0) {
+            anim.SetBool("isWalkingUp", false);
+            anim.SetBool("isWalkingDown", true);
+        }
+        else if(movement.y > 0){
+            anim.SetBool("isWalkingUp", true);
+            anim.SetBool("isWalkingDown", false);
+        }
+    }
+    void FixedUpdate(){
+        setAnimation();
         rb.velocity = movement * moveSpeed; 
     }
 
