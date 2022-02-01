@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class maskBar : MonoBehaviour
+public class MaskBar : MonoBehaviour
 {
     public Slider maskSlider;
     public Text text;

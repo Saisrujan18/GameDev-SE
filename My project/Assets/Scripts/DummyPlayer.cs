@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class DummyPlayer : MonoBehaviour
 {
     // Start is called before the first frame update
-    public Dialogue dialogue;
+    
     public int currentEnergy;
     public int currentMoney;
     public EnergyBar energybar;
