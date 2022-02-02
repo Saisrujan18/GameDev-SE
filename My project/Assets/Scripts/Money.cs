@@ -5,10 +5,20 @@ using UnityEngine.UI;
 
 public class Money : MonoBehaviour
 {
-    public Text money;
-
+    public Text moneyText;
+    public int money = 0;
+    void Start(){
+        SetMoney(100);
+    }
     public void SetMoney(int m)
     {
-        money.text = ""+m;
+        money = m;
+        moneyText.text = ""+m;
+    }
+    public void IncrementMoney(int del) {
+        SetMoney(money + del);
+    }
+    public void DecrementMoney(int del) {
+        SetMoney(money - del);
     }
 }

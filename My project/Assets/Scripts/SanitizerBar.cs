@@ -10,6 +10,7 @@ public class SanitizerBar : MonoBehaviour
     public Text text;
     public int sanitizerCount;
     public int sanitizerUsageFactor;
+    public float lastSanitized = 0.0f;
 
     void Start()
     {
@@ -19,13 +20,13 @@ public class SanitizerBar : MonoBehaviour
         text.text = ""+sanitizerCount;
     }
 
-    void IncreaseSanitizerCount(int i)
+    public void IncreaseSanitizerCount(int i)
     {
         sanitizerCount += i;
         text.text = ""+sanitizerCount;
     }
 
-    void DecreaseSanitizerCount(int i)
+    public void DecreaseSanitizerCount(int i)
     {
         sanitizerCount -= i;
         if( sanitizerCount < 0 )
@@ -38,6 +39,7 @@ public class SanitizerBar : MonoBehaviour
     public void DecrementSanitizer()
     {
         sanitizerSlider.value -= 10;
+        lastSanitized = Time.time;
         if( sanitizerSlider.value == 0 )
         {
             DecreaseSanitizerCount(1);
