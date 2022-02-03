@@ -534,7 +534,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 778dae544b3ecda449d41ac9a4d0c976, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  money: {fileID: 603773840660692902}
+  moneyText: {fileID: 0}
+  money: 0
 --- !u!1 &603773839545298206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,6 +2238,7 @@ MonoBehaviour:
   text: {fileID: 6650582373126010491}
   sanitizerCount: 2
   sanitizerUsageFactor: 10
+  lastSanitized: 0
 --- !u!1 &6650582372959331140
 GameObject:
   m_ObjectHideFlags: 0
@@ -3241,6 +3243,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bread: {fileID: 6650582374199596513}
+  dummy: {fileID: 0}
 --- !u!1 &6650582374158876440
 GameObject:
   m_ObjectHideFlags: 0
@@ -4184,14 +4187,19 @@ MonoBehaviour:
   money: {fileID: 603773839513740927}
   bread: {fileID: 6650582374083805688}
   apple: {fileID: 603773839132930740}
-  sanitizer: {fileID: 6650582372812736624}
+  sanitizerBar: {fileID: 0}
   mask: {fileID: 6650582374468647966}
   InteractorCanvas: {fileID: 603773840433148741}
   canvas: {fileID: 603773840433148745}
   playerCamera: {fileID: 8991663680573631896}
   playerCam: {fileID: 8991663680573631911}
+  timeStart: 60
+  punishTime: 5
+  ms: {fileID: 0}
+  ab: {fileID: 0}
   anim: {fileID: 8991663680702424591}
   moveSpeed: 10
+  hasMask: 0
   rb: {fileID: 8991663680702424588}
   view: {fileID: 8991663680702424585}
 --- !u!212 &8991663680702424587

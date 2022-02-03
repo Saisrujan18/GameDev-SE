@@ -25,6 +25,7 @@ public class Dummy : MonoBehaviour
     private Vector2 movement;
     public Animator anim;
     public float moveSpeed;
+    public float hasMask = 0;
     public Rigidbody2D rb;
     public PhotonView view;
     // Start is called before the first frame update
@@ -56,30 +57,12 @@ public class Dummy : MonoBehaviour
     }
     
     void setAnimation(){
-        if(movement.x == 0) {
-            anim.SetBool("isWalkingRight", false);
-            anim.SetBool("isWalkingLeft", false);
-        }
-        else if(movement.x < 0) {
-            anim.SetBool("isWalkingRight", false);
-            anim.SetBool("isWalkingLeft", true);
-        }
-        else if(movement.x > 0){
-            anim.SetBool("isWalkingRight", true);
-            anim.SetBool("isWalkingLeft", false);
-        }
-        if(movement.y == 0) {
-            anim.SetBool("isWalkingUp", false);
-            anim.SetBool("isWalkingDown", false);
-        }
-        else if(movement.y < 0) {
-            anim.SetBool("isWalkingUp", false);
-            anim.SetBool("isWalkingDown", true);
-        }
-        else if(movement.y > 0){
-            anim.SetBool("isWalkingUp", true);
-            anim.SetBool("isWalkingDown", false);
-        }
+        
+        anim.SetFloat("Horizontal", movement.x);
+        anim.SetFloat("Vertical", movement.y);
+        anim.SetFloat("Speed", movement.sqrMagnitude);
+        if (hasMask == 0) { anim.SetFloat("Mask", 0); }
+        else { anim.SetFloat("Mask", 1); }
     }
     
     void FixedUpdate()
