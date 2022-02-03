@@ -15,7 +15,13 @@ public class EnergyBar : MonoBehaviour
         slider.value = min(100.0f, Energy);
         fill.color = Gradient.Evaluate(slider.normalizedValue);
     }    
-    public void IncrementEnergy(float del){
+    
+    public void IncrementEnergy(float del)
+    {
         SetEnergy(slider.value + del);
     }
+    public float GetEnergy(){
+        return slider.value;
+    }
 }
+       

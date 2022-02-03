@@ -1900,10 +1900,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1246603373}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ca3f104230046c4fa93e14da6fd9cb0, type: 3}
+  m_Script: {fileID: 11500000, guid: df8bab4b6c3d4ee45b0256602e97a05e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 0}
+  roomtext: {fileID: 928630067}
+  usertext: {fileID: 229527343}
 --- !u!114 &1246603376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1948,8 +1949,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CreateRoom, Assembly-CSharp
+      - m_Target: {fileID: 1246603375}
+        m_TargetAssemblyTypeName: JoinRoom, Assembly-CSharp
         m_MethodName: Begin
         m_Mode: 1
         m_Arguments:

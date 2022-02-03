@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Apple : MonoBehaviour
 {
-    private int AppleCount;
+    public int AppleCount;
     public Text apple;
     
     void Start()

@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/join_room.unity
     guid: 55545e8f570714b4c90ec2f67f461a8f
   - enabled: 1
+    path: Assets/Scenes/Waiting Room.unity
+    guid: d063b0b74dbb7e040849b3433ef99e1c
+  - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 8b4240d9ea053404b8fabf6843187961
   - enabled: 1

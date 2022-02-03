@@ -11,13 +11,16 @@ using TMPro;
 public class CreateRoom : MonoBehaviourPunCallbacks
 {
     public static string roomId;
-    public GameObject text;
+    public GameObject roomtext;
+    public GameObject usertext;
     public static bool create;
+    public static string username;
     
     void Begin()
     {
-        roomId = text.GetComponent<TMP_InputField>().text;
+        roomId = roomtext.GetComponent<TMP_InputField>().text;
         create = true;
-        SceneManager.LoadScene("GameScene"); 
+        username = usertext.GetComponent<TMP_InputField>().text;
+        SceneManager.LoadScene("Waiting Room"); 
     }
 }

@@ -5,9 +5,8 @@ using UnityEngine.UI;
 
 public class Bread : MonoBehaviour
 {
-    private int BreadCount;
+    public int BreadCount;
     public Text bread;
-    public Dummy dummy;
     
     void Start()
     {
@@ -27,11 +26,7 @@ public class Bread : MonoBehaviour
         {
             BreadCount = 0;
         }
-        else {
-            dummy.energybar.SetEnergy(dummy.energybar.slider.value + 20);
-        }
         bread.text = "" + BreadCount;
-        //TODO:
     }
     
     public void DecrementBread()

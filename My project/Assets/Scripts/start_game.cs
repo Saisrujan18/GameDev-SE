@@ -16,7 +16,6 @@ public class start_game : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Input.GetButton("Jump"));
         if(Input.GetButton("Jump")){
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }

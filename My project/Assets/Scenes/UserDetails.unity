@@ -1132,10 +1132,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18ea3972f638ecb4fbaff12183a4c7d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPrefab: {fileID: 8991663680702424577, guid: a5be823dc418c2f4295be0bd9a9a5a4a,
-    type: 3}
-  MainCamera: {fileID: 519420028}
-  text: {fileID: 928630067}
+  roomtext: {fileID: 928630067}
+  usertext: {fileID: 229527343}
 --- !u!114 &362653462
 MonoBehaviour:
   m_ObjectHideFlags: 0
